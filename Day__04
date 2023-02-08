@@ -1,0 +1,370 @@
+#Day 4
+
+
+
+
+
+text = 'Thirty' + ' ' + 'Days' + ' ' + 'Of' + ' ' + 'Python'
+
+print(text)
+
+
+
+
+
+text = 'Coding' + ' ' + 'For' + ' ' + 'ALL' 
+
+print(text)
+
+
+
+
+
+company = "Coding For All"
+
+print(company)
+
+
+
+
+
+company = "Coding For All"
+
+print(len(company))
+
+
+
+company = company.upper()
+
+print(company)
+
+
+
+
+
+company = company.lower()
+
+print(company)
+
+
+
+
+
+company = "Coding For All"
+
+
+
+
+
+capitalized_company = company.capitalize()
+
+print(f"capitalize(): {capitalized_company}")
+
+
+
+title_company = company.title()
+
+print(f"title(): {title_company}")
+
+
+
+swapped_company = company.swapcase()
+
+print(f"swapcase(): {swapped_company}")
+
+
+
+
+
+company = "Coding For All"
+
+# slice the string starting from the index of the first space
+
+first_word = company[:company.index(" ")]
+
+print(f"First word: {first_word}")
+
+
+
+
+
+company = "Coding For All"
+
+if company.find("Coding") != -1:
+
+    print("The word 'Coding' is found in the string.")
+
+else:
+
+    print("The word 'Coding' is not found in the string.")
+
+
+
+
+
+company = "Coding For All"
+
+company = company.replace("Coding", "Python")
+
+print(company)
+
+
+
+
+
+company = "Python for Everyone"
+
+company = company.replace("Everyone", "All")
+
+print(company)
+
+
+
+
+
+company = "Coding For All"
+
+words = company.split(" ")
+
+print(words)
+
+
+
+
+
+companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+
+companies = companies.split(", ")
+
+print(companies)
+
+
+
+
+
+company = "Coding For All"
+
+first_char = company[0]
+
+print(first_char)
+
+
+
+
+
+company = "Coding For All"
+
+last_index = len(company) - 1
+
+print(last_index)
+
+
+
+
+
+company = "Coding For All"
+
+char_at_index_10 = company[10]
+
+print(char_at_index_10)
+
+
+
+
+
+name = "Python For Everyone"
+
+acronym = ""
+
+words = name.split()
+
+for word in words:
+
+    acronym += word[0].upper()
+
+print(acronym)
+
+
+
+
+
+name = "Coding For All"
+
+words = name.split()
+
+acronym = ""
+
+for word in words:
+
+    acronym += word[0].upper()
+
+print(acronym)
+
+
+
+
+
+string = "Coding For All"
+
+index = string.index("C")
+
+print(index)
+
+
+
+
+
+string = "Coding For All"
+
+index = string.index("F")
+
+print(index)
+
+
+
+
+
+string = "Coding For All People"
+
+last_occurrence = string.rfind('l')
+
+print(last_occurrence)
+
+
+
+
+
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+
+position = sentence.find('because')
+
+print(position)
+
+
+
+sentence = "You cannot end a sentence with because because because is a conjunction"
+
+last_index = sentence.rindex("because")
+
+print("The last occurrence of the word 'because' is at index", last_index)
+
+
+
+
+
+sentence = "You cannot end a sentence with because because because is a conjunction"
+
+start = sentence.find("because")
+
+end = start + len("because because because")
+
+phrase = sentence[start:end]
+
+
+
+print(phrase)
+
+
+
+
+
+string = 'Coding For All'
+
+result = string.startswith('Coding')
+
+print(result)
+
+
+
+
+
+string = 'Coding For All'
+
+result = string.endswith('Coding')
+
+print(result)
+
+
+
+
+
+string = '   Coding For All      '
+
+string = string.strip()
+
+print(string)
+
+
+
+
+
+print ('''Which one of the following variables return True when we use the method isidentifier():
+
+1. 30DaysOfPython
+
+2. thirty_days_of_python''')
+
+
+
+print ('''The variable "thirty_days_of_python" returns True when using the method isidentifier() because it is a valid Python identifier, consisting of lowercase letters and underscores, and starting with a lowercase letter.''')
+
+
+
+print( '''The variable "30DaysOfPython" returns False because it starts with a number and is not a valid Python identifier.''')
+
+
+
+
+
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+
+separator = "#"
+
+joined_libraries = separator.join(libraries)
+
+print(joined_libraries)
+
+
+
+print(".....................Question 30..............................................")
+
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+
+
+print(".....................Question 31..............................................")
+
+print('Name\tAge\tCountry\tCity')
+
+print('Asabeneh\t250\tFinland\tHelsinki')
+
+
+
+print(".....................Question 32..............................................")
+
+radius = 10
+
+area = 3.14 * radius ** 2
+
+print("The area of a circle with radius {} is {:.0f} meters square".format(radius, area))
+
+
+
+
+
+print("8 + 6 = {}".format(8 + 6))
+
+print("8 - 6 = {}".format(8 - 6))
+
+print("8 * 6 = {}".format(8 * 6))
+
+print("8 / 6 = {:.2f}".format(8 / 6))
+
+print("8 % 6 = {}".format(8 % 6))
+
+print("8 // 6 = {}".format(8 // 6))
+
+print("8 ** 6 = {}".format(8 ** 6))
+
+
+
