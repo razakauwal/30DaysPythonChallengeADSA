@@ -326,13 +326,13 @@ print(joined_libraries)
 
 
 
-print(".....................Question 30..............................................")
+
 
 print("I am enjoying this challenge.\nI just wonder what is next.")
 
 
 
-print(".....................Question 31..............................................")
+
 
 print('Name\tAge\tCountry\tCity')
 
@@ -340,7 +340,7 @@ print('Asabeneh\t250\tFinland\tHelsinki')
 
 
 
-print(".....................Question 32..............................................")
+
 
 radius = 10
 
